@@ -61,5 +61,5 @@ From Tinyclues UI, select the campaign(s) you want to export and click on export
 
 This can be a critical part of your documentation. Though this is optional, this is a good place to outline typical or even novel use cases for the integration. This can be used as a way to sell or upsell the relationship - it provides context, ideas, and most importantly a way to visualize the capabilities of the integration.
 
-[1]: {{site.baseurl}}/developer_guide/rest_api/basics/#endpoints)
+[1]: {{site.baseurl}}/developer_guide/rest_api/basics/#endpoints)  
 [2]: {% image_buster /assets/img/tinyclues/TC_Braze1.png %}
