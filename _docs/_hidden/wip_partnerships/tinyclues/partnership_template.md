@@ -55,8 +55,11 @@ This is an __optional__ section. Here, you could outline any specific ways to cu
 Each time you want to activate a given campaign through Braze, you’ll have to first export it from Tinyclues platform.  
 From Tinyclues UI, select the campaign(s) you want to export and click on export.
 
+![campaign_export][2]
+
 ## Use Cases
 
 This can be a critical part of your documentation. Though this is optional, this is a good place to outline typical or even novel use cases for the integration. This can be used as a way to sell or upsell the relationship - it provides context, ideas, and most importantly a way to visualize the capabilities of the integration.
 
 [1]: {{site.baseurl}}/developer_guide/rest_api/basics/#endpoints)
+[2]: {% image_buster /assets/img/tinyclues/TC_Braze1.png %}
