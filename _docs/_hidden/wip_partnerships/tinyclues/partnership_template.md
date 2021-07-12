@@ -9,19 +9,18 @@ page_type: partner
 hidden: true
 ---
 
-# [Partner Name]
+# Tinyclues
 
-> Welcome to the Partner Page Template! Here, you'll find everything you need to create your partner page. In this first section, you should describe the partner in the first paragraph in a sentence or two. Also, include a link to that partner's main site.
+> [Tinyclues](https://www.tinyclues.com) is an Audience Building feature that offers the capability to increase the number of campaigns and revenue without harming customer experience along with analytics to track the performance of CRM campaigns both online & offline
 
-In the second paragraph, you should explore and explain the relationship between Braze and this partner. This paragraph should explain how Braze and this partner work together to tighten the bond between the Braze User and their customer. Explain the "elevation" that occurs when a Braze User integrates with or leverages this partner and their services.
+Together, Braze and Tinyclues offer our clients a path to better CRM planning and strategy. 
+Through our partnership, clients can send more targeting campaigns, find new product opportunities, and elevate revenue using an incredibly user-friendly UI.
 
-## Requirements or Pre-Requisites
+## Requirements
 
-This section is all about what you need to integrate with the partner and start using their services. The best way to deliver this information is with a quick instructional paragraph that describes any non-technical important details of "need to know" information, like whether or not your integration will be subject to additional security checks or clearances. Then, you should use a chart to describe the technical requirements of the integration.
-
-{% alert important %}
-The requirements listed below are typical requirements you might need from Braze. We recommend using the attributed titling, origin, links, and phrasing as listed in the chart below. Be sure to adjust the description so that you know what each of these requirements is used to do.
-{% endalert %}
+* An active Tinyclues account
+* An active Braze account with the ability to use Tinyclues integration
+* The API key corresponding to Tincylues’ integration must be communicated to your Tinyclues Data Operation representative in order to set up the integration
 
 | Requirement | Origin | Access | Description |
 |---|---|---|---|
@@ -29,7 +28,7 @@ The requirements listed below are typical requirements you might need from Braze
 | Braze REST Endpoint | Braze | [Braze REST Endpoint List][1] | Your REST Endpoint URL. Your endpoint will depend on the Braze URL for your instance. |
 {: .reset-td-br-1 .reset-td-br-2 .reset-td-br-3  .reset-td-br-4}
 
-## [Type of Integration] Integration
+## Integration
 
 This is where you break down the integration into steps. Do not just write endless paragraphs - these are technical documents that will be used by marketers and developers alike to get the integration up and running. Your only goal for this section is to write descriptive documentation that helps the Braze User get the job done. By 'Type of Integration' in the section title, we mean to indicate whether or not this is a Side-by-Side integration, server-to-server, or Out-of-the-Box. This enables you to have multiple Integration Sections if there is more than one way to integrate with this partner.
 
@@ -51,11 +50,10 @@ This is an __optional__ section. Here, you could outline any specific ways to cu
 
 ## Using This Integration
 
-This should describe how to use the integration - let your reader know if they need to push a few buttons or if they don't need to do anything at all after the integration.
+### Step 1: Export a Campaign from Tinyclues Platform
 
-### Step 1: This Is a Short Description of Step One
-
-Just your typical step by step how to.
+Each time you want to activate a given campaign through Braze, you’ll have to first export it from Tinyclues platform.  
+From Tinyclues UI, select the campaign(s) you want to export and click on export.
 
 ## Use Cases
 
